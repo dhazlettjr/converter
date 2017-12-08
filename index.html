@@ -7,11 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" name="Temperature"><br>
-    <input type="radio" name="Temperature" value="Fahrenheit"checked> Fahrenheit<br>
-    <input type="radio" name="Temperature" value="Celsius" checked> Celsius<br>
-    <button type="button">Convert</button>
+    <div>
+    <input id="temp" type="number"><br>
+
+    <input id="switchToF" type="radio" name="Temperature" value="Fahrenheit">Fahrenheit<br>
+    
+    <input id="switchToC" type="radio" name="Temperature" value="Celsius">Celsius<br>
+
+    <div>
+    <h3>Result:</h3>
+
+    <div>
+    <p id="resultAmount"></p>
+    </div>
+
+    
+    <button id="converterRadio" type="button">Convert</button>
+    <button id="clearRadio" type="button">Clear</button>
+    </div>
+    </div>
+
+    
 
     <div></div>
+    <script src="converter.js"></script>
 </body>
 </html>
